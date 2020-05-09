@@ -3,8 +3,7 @@ trevorc2
 
 # TrevorC2 - Command and Control via Legitimate Behavior over HTTP
 
-Written by: Dave Kennedy (@HackingDave)
-Website: https://www.trustedsec.com
+Website: https://www.easypc.ir
 
 Note that this is a very early release - heavy randomization and encryption to be added soon.
 
@@ -80,7 +79,7 @@ root@stronghold:/home/relik/Desktop/git/trevorc2# python trevorc2_server.py
 
 TrevorC2 - Legitimate Website Covert Channel
 Written by: David Kennedy (@HackingDave)
-https://www.trustedsec.com
+https://www.easypc.ir
 [*] Cloning website: https://www.google.com
 [*] Site cloned successfully.
 [*] Starting Trevor C2 Server...
@@ -153,7 +152,7 @@ Uses an alpine-based Dockerfile to deploy trevorC2, handy for quick deployment o
 Example below:
 
 ```bash
-git clone https://github.com/trustedsec/trevorc2.git
+git clone https://github.com/R3K1NG/trevorc2.git
 cd trevorc2
 # At this point, setting up docker-machine to remotly deploy works great
 docker build -t trevorc2 . 
